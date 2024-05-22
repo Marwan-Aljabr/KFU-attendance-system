@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import cv2
-
+# from auth import authenticator
 import redis
 
 # insight face
@@ -12,8 +12,6 @@ import time
 from datetime import datetime
 
 import os
-
-
 
 # Connect to Redis Client
 hostname = 'redis-14198.c55.eu-central-1-1.ec2.redns.redis-cloud.com'
